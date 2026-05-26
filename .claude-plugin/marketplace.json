@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        {
+            "name": "very-specific-doc-skills",
+            "source": "./skills",
+            "skills": ["./doc-coauthoring", "./pdf", "./pptx"]
+        },
+        {
+            "name": "some-fe-skills",
+            "source": "./skills",
+            "skills": ["./frontend-design", "./web-artifacts-builder", "./webapp-testing"]
+        }
+    ]
+}
