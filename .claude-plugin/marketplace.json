@@ -9,6 +9,10 @@
             "name": "some-fe-skills",
             "source": "./skills",
             "skills": ["./frontend-design", "./web-artifacts-builder", "./webapp-testing"]
-        }
+        },
+        {
+            "name": "another-group",
+            "source": "./skills",
+            "skills": ["./pdf", "./webapp-testing"]
     ]
 }
