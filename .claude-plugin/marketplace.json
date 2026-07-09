@@ -1,18 +1,44 @@
 {
     "plugins": [
         {
-            "name": "very-specific-doc-skills",
-            "source": "./skills",
-            "skills": ["./doc-coauthoring", "./pdf", "./pptx"]
+            "name": "claude-api",
+            "source": "./skills/claude-api"
         },
         {
-            "name": "some-fe-skills",
-            "source": "./skills",
-            "skills": ["./frontend-design", "./web-artifacts-builder", "./webapp-testing"]
+            "name": "doc-coauthoring",
+            "source": "./skills/doc-coauthoring"
         },
         {
-            "name": "another-group",
-            "source": "./skills",
-            "skills": ["./pdf", "./webapp-testing"]
+            "name": "front-end-design",
+            "source": "./skills/frontend-design"
+        },
+        {
+            "name": "mcp-builder",
+            "source": "./skills/mcp-builder"
+        },
+        {
+            "name": "pdf",
+            "source": "./skills/pdf"
+        },
+        {
+            "name": "pptx",
+            "source": "./skills/pptx"
+        },
+        {
+            "name": "skill-creator",
+            "source": "./skills/skill-creator"
+        },
+        {
+            "name": "web-artifacts-builder",
+            "source": "./skills/web-artifacts-builder"
+        },
+        {
+            "name": "webapp-testing",
+            "source": "./skills/webapp-testing"
+        },
+        {
+            "name": "bundled-skill",
+            "source": "./bundles/bundled-skill"
+        },
     ]
 }
